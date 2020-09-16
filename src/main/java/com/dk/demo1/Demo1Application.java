@@ -6,7 +6,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import lombok.extern.log4j.Log4j2;
 
-
 @Log4j2
 @SpringBootApplication
 public class Demo1Application implements CommandLineRunner {
@@ -18,7 +17,7 @@ public class Demo1Application implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 
-		log.info("Barnch 1");
+		log.info("Barnch 11");
 	}
 
 }
